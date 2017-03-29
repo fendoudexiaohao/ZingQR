@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="songzhihao.bwei.com.zing.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入要生成的网址"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描二维码"
+        />
+    <Button
+        android:id="@+id/button_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描相册"
+        />
+    <Button
+        android:id="@+id/button_NoLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成不带Logo的二维码"
+        />
+    <Button
+        android:id="@+id/button_Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成带Logo的二维码"
+        />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+</LinearLayout>
